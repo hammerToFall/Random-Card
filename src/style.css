@@ -1,1 +1,35 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: green;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  position: absolute;
+  display: inline-block;
+  height: 420px;
+  width: 300px;
+  margin-top: 40px;
+}
+#card-header {
+  height: 30%;
+  font-size: 94px;
+  margin-top: -12px;
+  padding-left: 15px;
+}
+#card-footer {
+  height: 30%;
+  font-size: 95px;
+  justify-content: end;
+  display: flex;
+  padding-right: 15px;
+}
+.body {
+  display: flex;
+  justify-content: center;
+  height: 40%;
+  font-size: 110px;
+}
